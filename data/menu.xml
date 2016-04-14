@@ -73,18 +73,17 @@ self.session.openWithCallback(msgClosed, FactoryReset)
 </code>
 			</item>
 			<item weight="15" level="0" text="Software update" entryID="software_update"><screen module="SoftwareUpdate" screen="UpdatePlugin"/></item>
-                        </menu> 
-                        <item level="1" weight="1" text="Teleportation" entryID="blackhole_red"><screen module="BhRed" screen="BhRedp_main" /></item>
-		        <item level="1" weight="2" text="Black Hole apps" entryID="blackhole_extra"><screen module="BhSettings" screen="DeliteSettings" /></item>
-		        <item level="1" weight="4" text="Addons" entryID="bh_addons"><screen module="BhAddons" screen="DeliteAddons" /></item>
-		        <item level="1" weight="5" text="Epg Panel" entryID="epg_panel"><screen module="BhEpgPanel" screen="DeliteEpgPanel" /></item>
-		        <menu level="1" weight="6" text="Backup Menu" entryID="backup_screen">
+                </menu> 
+                <item level="1" weight="1" text="Teleportation" entryID="blackhole_red"><screen module="BhRed" screen="BhRedp_main" /></item>
+		<item level="1" weight="2" text="Black Hole apps" entryID="blackhole_extra"><screen module="BhSettings" screen="DeliteSettings" /></item>
+		<item level="1" weight="4" text="Addons" entryID="bh_addons"><screen module="BhAddons" screen="DeliteAddons" /></item>
+		<item level="1" weight="5" text="Epg Panel" entryID="epg_panel"><screen module="BhEpgPanel" screen="DeliteEpgPanel" /></item>
+		<menu level="1" weight="6" text="Backup Menu" entryID="backup_screen">
 			<id val="bhbackup" /> 
 		</menu>
-		</menu>
-		        <item weight="3" level="0" text="Plugins" entryID="plugin_selection"><screen module="PluginBrowser" screen="PluginBrowser" /></item>
-		        <item level="0" text="Timer" entryID="timer_edit"><screen module="TimerEdit" screen="TimerEditList" /></item>
-		        <menu level="2" text="Information" entryID="info_screen">
+		<item weight="3" level="0" text="Plugins" entryID="plugin_selection"><screen module="PluginBrowser" screen="PluginBrowser" /></item>
+		<item level="0" text="Timer" entryID="timer_edit"><screen module="TimerEdit" screen="TimerEditList" /></item>
+		<menu level="2" text="Information" entryID="info_screen">
 			<id val="information" />
 			<item level="1" text="Service" entryID="service_info_screen"><screen module="ServiceInfo" screen="ServiceInfo"/></item>
 			<item level="0" text="About" entryID="about_screen"><screen module="About" /></item>
